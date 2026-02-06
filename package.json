@@ -1,0 +1,16 @@
+{
+  "name": "almulla-exchange-vapi",
+  "version": "1.0.0",
+  "description": "Al Mulla Exchange VAPI Webhook Server",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
